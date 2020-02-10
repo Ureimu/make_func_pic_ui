@@ -1,0 +1,4 @@
+(windows program)
+第一次使用请安装python3.7.
+安装完毕之后双击pipinstall.bat,等待自动安装完毕,窗口关闭之后即可双击make_func_pic.bat使用该软件.
+以后只需要双击make_func_pic.bat即可.
