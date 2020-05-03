@@ -106,8 +106,6 @@ def make_gif(fig, ax1, list0, coo_rangelist, m_rangelist, setdata, logic2):
         mymovefile(str(int(t*fps))+".jpeg",'cache_pic/'+str(int(t*fps))+".jpeg")
         pic_list.append('cache_pic/'+str(int(t*fps))+".jpeg")
         step = int((t*fps)/(duration*fps))*100
-        QtGui.dialog.processEvents()
-        ui_dia.progressBar.setValue(step)
     create_gif(pic_list,gifname+'.gif',1/fps)
     mymovefile(gifname+'.gif','pic/'+gifname+'.gif')
 
